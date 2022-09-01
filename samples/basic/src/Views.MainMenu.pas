@@ -5,14 +5,14 @@ interface
 uses
   System.SysUtils, System.Types, System.UITypes, System.Classes, System.Variants,
   FMX.Types, FMX.Controls, FMX.Forms, FMX.Graphics, FMX.Dialogs, FMX.Controls.Presentation, FMX.StdCtrls, FMX.Wait, FMX.Objects,
-  FMX.Layouts, ALFmxObjects;
+  FMX.Layouts;
 
 type
   TFrmMainMenu = class(TForm)
     btnShow: TButton;
     lytShowHere: TLayout;
     txtShowHere: TText;
-    retShowHere: TALRectangle;
+    retShowHere: TRectangle;
     procedure btnShowClick(Sender: TObject);
     procedure txtShowHereClick(Sender: TObject);
   end;

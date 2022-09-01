@@ -9,7 +9,7 @@ object FrmMenu: TFrmMenu
   FormFactor.Height = 480
   FormFactor.Devices = [Desktop]
   DesignerMasterStyle = 0
-  object retHeader: TALRectangle
+  object retHeader: TRectangle
     Align = Top
     Fill.Color = xFF567DA1
     Size.Width = 350.000000000000000000
@@ -22,7 +22,7 @@ object FrmMenu: TFrmMenu
       Size.Height = 174.000000000000000000
       Size.PlatformDefault = False
       TabOrder = 0
-      object imgUser: TALCircle
+      object imgUser: TCircle
         Align = Center
         Fill.Bitmap.Bitmap.PNG = {
           89504E470D0A1A0A0000000D49484452000000DA000000DA0806000000C01D5C
@@ -2763,7 +2763,7 @@ object FrmMenu: TFrmMenu
       Text = 'Cientista'
       TabOrder = 2
     end
-    object ALLayout1: TALLayout
+    object ALLayout1: TLayout
       Align = Bottom
       Position.Y = 250.000000000000000000
       Size.Width = 350.000000000000000000

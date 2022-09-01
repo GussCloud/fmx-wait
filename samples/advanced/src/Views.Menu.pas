@@ -5,21 +5,21 @@ interface
 uses
   System.SysUtils, System.Types, System.UITypes, System.Classes, System.Variants,
   FMX.Types, FMX.Controls, FMX.Forms, FMX.Graphics, FMX.Dialogs, FMX.Effects, FMX.Filter.Effects, FMX.StdCtrls, FMX.Objects,
-  FMX.Layouts, FMX.Controls.Presentation, ALFmxObjects, ALFmxLayouts, FMX.Wait;
+  FMX.Layouts, FMX.Controls.Presentation, FMX.Wait;
 
 type
   TFrmMenu = class(TForm)
-    retHeader: TALRectangle;
+    retHeader: TRectangle;
     Label1: TLabel;
     Label2: TLabel;
     LayoutProfile: TLayout;
-    imgUser: TALCircle;
+    imgUser: TCircle;
     lytHeader: TLayout;
     btnVoltar: TSpeedButton;
     imgVoltar: TPath;
     btnOpcoes: TSpeedButton;
     imgOpcoes: TPath;
-    ALLayout1: TALLayout;
+    ALLayout1: TLayout;
     Label3: TLabel;
     Label4: TLabel;
     Label5: TLabel;

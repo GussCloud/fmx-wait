@@ -2,14 +2,14 @@ object FrameWait: TFrameWait
   Size.Width = 300.000000000000000000
   Size.Height = 500.000000000000000000
   Size.PlatformDefault = False
-  object lytContent: TALLayout
+  object lytContent: TLayout
     Align = Client
     HitTest = True
     Size.Width = 300.000000000000000000
     Size.Height = 500.000000000000000000
     Size.PlatformDefault = False
     TabOrder = 0
-    object retContent: TALRectangle
+    object retContent: TRectangle
       Align = Contents
       Fill.Color = claBlack
       Opacity = 0.400000005960464500
@@ -19,7 +19,7 @@ object FrameWait: TFrameWait
       Stroke.Kind = None
       XRadius = 5.000000000000000000
     end
-    object CircleContent: TALCircle
+    object CircleContent: TCircle
       Align = Center
       Fill.Color = claWhite
       Size.Width = 60.000000000000000000

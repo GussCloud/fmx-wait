@@ -27,7 +27,7 @@ object FrmMainMenu: TFrmMainMenu
     Size.Width = 200.000000000000000000
     Size.Height = 100.000000000000000000
     Size.PlatformDefault = False
-    object retShowHere: TALRectangle
+    object retShowHere: TRectangle
       Align = Client
       Fill.Color = xFFF4F4F4
       Size.Width = 200.000000000000000000
